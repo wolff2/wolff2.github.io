@@ -1,100 +1,129 @@
-# Privacy Policy for Stampiary
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - Stampiary</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+    line-height: 1.6;
+    color: #1c1a17;
+    background: #faf7f2;
+  }
+  h1 { font-size: 1.8em; margin-top: 0; }
+  h2 { font-size: 1.3em; margin-top: 2em; border-bottom: 1px solid #ccc; padding-bottom: 6px; }
+  h3 { font-size: 1.05em; margin-top: 1.5em; }
+  a { color: #4a7fb5; }
+  .meta { color: #555; font-size: 0.95em; }
+  .disclaimer {
+    margin-top: 3em;
+    padding: 16px;
+    background: #f0ede6;
+    border-left: 3px solid #b08d4f;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
 
-**Effective Date:** 29.07.2026
-**Last Updated:** 29.07.2026
+<h1>Privacy Policy for Stampiary</h1>
+<p class="meta"><strong>Effective Date:</strong> [INSERT DATE]<br>
+<strong>Last Updated:</strong> [INSERT DATE]</p>
 
-## Introduction
+<h2>Introduction</h2>
+<p>Stampiary ("we," "our," or "us") is a geography and culture exploration app that lets users discover facts, take quizzes, and collect stamps for countries around the world. This Privacy Policy explains how we handle information when you use the Stampiary mobile application (the "App").</p>
+<p>We designed Stampiary to work offline-first and to minimize the personal information we collect. Please read this policy carefully. If you do not agree with the terms of this policy, please do not access or use the App.</p>
 
-Stampiary ("we," "our," or "us") is a geography and culture exploration app that lets users discover facts, take quizzes, and collect stamps for countries around the world. This Privacy Policy explains how we handle information when you use the Stampiary mobile application (the "App").
+<h2>Information We Collect</h2>
 
-We designed Stampiary to work offline-first and to minimize the personal information we collect. Please read this policy carefully. If you do not agree with the terms of this policy, please do not access or use the App.
+<h3>Information We Do NOT Collect</h3>
+<p>Stampiary does not require account creation, login, or sign-up. We do not collect your name, email address, phone number, or any other personally identifiable information directly through app functionality.</p>
 
-## Information We Collect
+<h3>Locally Stored Information</h3>
+<p>The App stores the following information <strong>locally on your device only</strong>:</p>
+<ul>
+  <li>Your progress (which countries you have visited, quizzes completed, matching games played)</li>
+  <li>Streak and Daily Flight completion history</li>
+  <li>Personal notes you optionally add to stamps in your passport</li>
+  <li>Selected mode (Kid or General)</li>
+</ul>
+<p>This locally stored information is not transmitted to us and remains on your device unless you choose to share it (for example, through the Passport Share feature, which generates a shareable image containing only your stamp count and streak number, not your personal notes).</p>
 
-### Information We Do NOT Collect
-Stampiary does not require account creation, login, or sign-up. We do not collect your name, email address, phone number, or any other personally identifiable information directly through app functionality.
+<h3>Automatically Collected Information (via Third-Party Services)</h3>
+<p>We use third-party services that may automatically collect certain technical information, as described in the "Third-Party Services" section below.</p>
 
-### Locally Stored Information
-The App stores the following information **locally on your device only**:
-- Your progress (which countries you have visited, quizzes completed, matching games played)
-- Streak and Daily Flight completion history
-- Personal notes you optionally add to stamps in your passport
-- Selected mode (Kid or General)
+<h2>How We Use Information</h2>
+<p>Since we collect minimal information directly, our use is limited to:</p>
+<ul>
+  <li>Downloading and caching country content (facts, quizzes, images) from our content delivery service so the App can function offline</li>
+  <li>Displaying advertisements through Google AdMob</li>
+  <li>Verifying that requests to our backend come from a genuine, unmodified copy of the App (via Firebase App Check), to protect against abuse</li>
+</ul>
 
-This locally stored information is not transmitted to us and remains on your device unless you choose to share it (for example, through the Passport Share feature, which generates a shareable image containing only your stamp count and streak number, not your personal notes).
+<h2>Third-Party Services</h2>
+<p>Stampiary uses the following third-party services, each of which has its own privacy policy governing how they handle data:</p>
 
-### Automatically Collected Information (via Third-Party Services)
-We use third-party services that may automatically collect certain technical information, as described in the "Third-Party Services" section below.
+<h3>Google Firebase</h3>
+<p>We use Firebase Storage to host and deliver country content, and Firebase App Check to verify app authenticity and prevent abuse. Firebase may process technical data such as IP address and device identifiers as part of these services.<br>
+Firebase Privacy Policy: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
 
-## How We Use Information
+<h3>Google AdMob</h3>
+<p>We use Google AdMob to display advertisements within the App. AdMob may collect device identifiers, IP address, and general usage data to serve ads. Depending on your selected mode (see "Children's Privacy" below), AdMob will serve either standard or non-personalized advertising.<br>
+Google AdMob Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a><br>
+You can review and adjust your ad personalization settings at: <a href="https://adssettings.google.com">https://adssettings.google.com</a></p>
 
-Since we collect minimal information directly, our use is limited to:
-- Downloading and caching country content (facts, quizzes, images) from our content delivery service so the App can function offline
-- Displaying advertisements through Google AdMob
-- Verifying that requests to our backend come from a genuine, unmodified copy of the App (via Firebase App Check), to protect against abuse
+<h3>Google Play Services</h3>
+<p>As an Android application, Stampiary relies on Google Play Services, which has its own data collection practices.<br>
+Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
 
-## Third-Party Services
+<h2>Children's Privacy</h2>
+<p>Stampiary offers a <strong>Kid Mode</strong> designed for younger users, alongside a <strong>General Mode</strong> for older users and adults. We take children's privacy seriously and have designed the App to comply with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policy requirements:</p>
+<ul>
+  <li>The App does not require any account creation or collection of personal information from any user, including children.</li>
+  <li>When Kid Mode is active, the App requests only <strong>non-personalized advertising</strong> from AdMob (using <code>tagForChildDirectedTreatment</code> and <code>tagForUnderAgeOfConsent</code> signals), meaning no behavioral advertising profile is built for child users.</li>
+  <li>Switching from Kid Mode to General Mode requires completing a simple parental gate (a basic math question) to help ensure the switch is made by an adult.</li>
+  <li>We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us using the information below so we can address it.</li>
+</ul>
 
-Stampiary uses the following third-party services, each of which has its own privacy policy governing how they handle data:
+<h2>Advertising</h2>
+<p>Stampiary is supported by advertising displayed through Google AdMob. Ad placements include:</p>
+<ul>
+  <li>A banner advertisement on the home screen</li>
+  <li>An interstitial (full-screen) advertisement shown after completing a country quiz in General Mode's deep-dive quiz flow</li>
+</ul>
+<p>The Daily Flight feature is always ad-free. We limit how frequently interstitial ads can appear to avoid excessive interruption.</p>
 
-### Google Firebase
-We use Firebase Storage to host and deliver country content, and Firebase App Check to verify app authenticity and prevent abuse. Firebase may process technical data such as IP address and device identifiers as part of these services.
-Firebase Privacy Policy: https://firebase.google.com/support/privacy
+<h2>Data Security</h2>
+<p>We rely on industry-standard security practices provided by our third-party service providers (Google Firebase, Google AdMob) to protect data in transit. Since most user data remains locally on your device, your device's own security settings (passcode, encryption) are an important part of protecting your information.</p>
 
-### Google AdMob
-We use Google AdMob to display advertisements within the App. AdMob may collect device identifiers, IP address, and general usage data to serve ads. Depending on your selected mode (see "Children's Privacy" below), AdMob will serve either standard or non-personalized advertising.
-Google AdMob Privacy Policy: https://policies.google.com/privacy
-You can review and adjust your ad personalization settings at: https://adssettings.google.com
+<h2>Data Retention</h2>
+<p>Locally stored progress data remains on your device until you uninstall the App or clear its data through your device settings. We do not maintain a server-side copy of your personal progress, notes, or usage history.</p>
 
-### Google Play Services
-As an Android application, Stampiary relies on Google Play Services, which has its own data collection practices.
-Google Privacy Policy: https://policies.google.com/privacy
+<h2>Your Rights and Choices</h2>
+<ul>
+  <li><strong>Ad personalization:</strong> You can opt out of personalized advertising through your device's ad settings (Android Settings &gt; Google &gt; Ads) or at <a href="https://adssettings.google.com">https://adssettings.google.com</a></li>
+  <li><strong>Local data:</strong> You can delete all locally stored progress at any time by uninstalling the App or clearing its data/cache through your device settings.</li>
+  <li><strong>Do Not Track:</strong> Because Stampiary does not track users across other apps or websites for advertising purposes beyond what AdMob independently performs, "Do Not Track" browser signals are not applicable to app usage.</li>
+</ul>
 
-## Children's Privacy
+<h2>International Users</h2>
+<p>If you are using Stampiary from outside the country where our services are hosted, please be aware that information handled by our third-party service providers (Firebase, AdMob) may be transferred to, stored, and processed in the United States or other countries where their servers are located.</p>
 
-Stampiary offers a **Kid Mode** designed for younger users, alongside a **General Mode** for older users and adults. We take children's privacy seriously and have designed the App to comply with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policy requirements:
+<h2>Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons. We will update the "Last Updated" date at the top of this policy when changes are made. Continued use of the App after changes take effect constitutes acceptance of the revised policy.</p>
 
-- The App does not require any account creation or collection of personal information from any user, including children.
-- When Kid Mode is active, the App requests only **non-personalized advertising** from AdMob (using `tagForChildDirectedTreatment` and `tagForUnderAgeOfConsent` signals), meaning no behavioral advertising profile is built for child users.
-- Switching from Kid Mode to General Mode requires completing a simple parental gate (a basic math question) to help ensure the switch is made by an adult.
-- We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us using the information below so we can address it.
+<h2>Contact Us</h2>
+<p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
+<p><strong>Email:</strong> [INSERT CONTACT EMAIL]</p>
 
-## Advertising
+<div class="disclaimer">
+This policy was drafted as a template based on Stampiary's described functionality and should be reviewed by a qualified legal professional before publication, particularly regarding children's privacy compliance (COPPA) and any applicable regional requirements (e.g., GDPR, CCPA) depending on where the app will be distributed.
+</div>
 
-Stampiary is supported by advertising displayed through Google AdMob. Ad placements include:
-- A banner advertisement on the home screen
-- An interstitial (full-screen) advertisement shown after completing a country quiz in General Mode's deep-dive quiz flow
-
-The Daily Flight feature is always ad-free. We limit how frequently interstitial ads can appear to avoid excessive interruption.
-
-## Data Security
-
-We rely on industry-standard security practices provided by our third-party service providers (Google Firebase, Google AdMob) to protect data in transit. Since most user data remains locally on your device, your device's own security settings (passcode, encryption) are an important part of protecting your information.
-
-## Data Retention
-
-Locally stored progress data remains on your device until you uninstall the App or clear its data through your device settings. We do not maintain a server-side copy of your personal progress, notes, or usage history.
-
-## Your Rights and Choices
-
-- **Ad personalization:** You can opt out of personalized advertising through your device's ad settings (Android Settings > Google > Ads) or at https://adssettings.google.com
-- **Local data:** You can delete all locally stored progress at any time by uninstalling the App or clearing its data/cache through your device settings.
-- **Do Not Track:** Because Stampiary does not track users across other apps or websites for advertising purposes beyond what AdMob independently performs, "Do Not Track" browser signals are not applicable to app usage.
-
-## International Users
-
-If you are using Stampiary from outside the country where our services are hosted, please be aware that information handled by our third-party service providers (Firebase, AdMob) may be transferred to, stored, and processed in the United States or other countries where their servers are located.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons. We will update the "Last Updated" date at the top of this policy when changes are made. Continued use of the App after changes take effect constitutes acceptance of the revised policy.
-
-## Contact Us
-
-If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
-
-**Email:** [INSERT CONTACT EMAIL]
-
----
-
-*This policy was drafted as a template based on Stampiary's described functionality and should be reviewed by a qualified legal professional before publication, particularly regarding children's privacy compliance (COPPA) and any applicable regional requirements (e.g., GDPR, CCPA) depending on where the app will be distributed.*
+</body>
+</html>
