@@ -23,18 +23,23 @@ def item(p):
    <media:content url="{escape(p['image'])}" medium="image" type="image/jpeg"/>
   </item>"""
 
-now = format_datetime(datetime.datetime.combine(today, datetime.time(6, 0), datetime.timezone.utc))
-xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+def write(name, items, title):
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
  <channel>
-  <title>LumivexaStore</title>
+  <title>{title}</title>
   <link>{SITE}/</link>
   <description>Spreadsheet templates for Google Sheets and Excel</description>
   <language>en</language>
   <lastBuildDate>{now}</lastBuildDate>
-{chr(10).join(item(p) for p in live)}
+{chr(10).join(item(p) for p in items)}
  </channel>
 </rss>
 """
-(ROOT / "feed.xml").write_text(xml)
+    (ROOT / name).write_text(xml)
+
+now = format_datetime(datetime.datetime.combine(today, datetime.time(6, 0), datetime.timezone.utc))
+write("feed.xml", live, "LumivexaStore")
+for slug, t in [("home-bakery-system", "Home Bakery"), ("family-care-hub", "Family Care"), ("estate-executor-kit", "Estate Executor")]:
+    write(f"feed-{slug}.xml", [p for p in live if f"/shop/{slug}.html" in p["link"]], f"LumivexaStore - {t}")
 print(f"{len(live)} of {len(pins)} pins live")
