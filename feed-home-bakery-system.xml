@@ -15,5 +15,14 @@
    <enclosure url="https://wolff2.github.io/pins/home-bakery-system-40.jpg" length="135993" type="image/jpeg"/>
    <media:content url="https://wolff2.github.io/pins/home-bakery-system-40.jpg" medium="image" type="image/jpeg"/>
   </item>
+  <item>
+   <title>How to price a cake: the simple formula</title>
+   <link>https://wolff2.github.io/guides/how-to-price-a-cake.html</link>
+   <description>A step-by-step cake pricing formula for home bakers: ingredients, packaging, your time, overhead and profit margin, with a worked example. Free guide from LumivexaStore.</description>
+   <guid isPermaLink="false">lumivexa-guide-how-to-price-a-cake</guid>
+   <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
+   <enclosure url="https://wolff2.github.io/pins/guide-how-to-price-a-cake.jpg" length="121553" type="image/jpeg"/>
+   <media:content url="https://wolff2.github.io/pins/guide-how-to-price-a-cake.jpg" medium="image" type="image/jpeg"/>
+  </item>
  </channel>
 </rss>

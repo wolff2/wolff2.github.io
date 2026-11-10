@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: python3 scripts/build_guides.py
       - run: python3 scripts/build_feed.py
       - run: |
           git config user.name "lumivexa-bot"
           git config user.email "lumivexa-bot@users.noreply.github.com"
-          git add feed*.xml
-          git diff --cached --quiet || (git commit -m "Daily pin feed update" && git push)
+          git add -A guides sitemap.xml robots.txt feed*.xml
+          git diff --cached --quiet || (git commit -m "Daily guides and pin feed update" && git push)

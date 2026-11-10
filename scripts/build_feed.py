@@ -41,5 +41,5 @@ def write(name, items, title):
 now = format_datetime(datetime.datetime.combine(today, datetime.time(6, 0), datetime.timezone.utc))
 write("feed.xml", live, "LumivexaStore")
 for slug, t in [("home-bakery-system", "Home Bakery"), ("family-care-hub", "Family Care"), ("estate-executor-kit", "Estate Executor")]:
-    write(f"feed-{slug}.xml", [p for p in live if f"/shop/{slug}.html" in p["link"]], f"LumivexaStore - {t}")
+    write(f"feed-{slug}.xml", [p for p in live if p.get("feed") == slug], f"LumivexaStore - {t}")
 print(f"{len(live)} of {len(pins)} pins live")
