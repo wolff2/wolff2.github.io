@@ -15,5 +15,5 @@ jobs:
       - run: |
           git config user.name "lumivexa-bot"
           git config user.email "lumivexa-bot@users.noreply.github.com"
-          git add -A guides sitemap.xml robots.txt feed*.xml
+          git add -A guides sitemap.xml robots.txt feed*.xml data/published.json
           git diff --cached --quiet || (git commit -m "Daily guides and pin feed update" && git push)

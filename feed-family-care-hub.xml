@@ -5,7 +5,25 @@
   <link>https://wolff2.github.io/</link>
   <description>Spreadsheet templates for Google Sheets and Excel</description>
   <language>en</language>
-  <lastBuildDate>Thu, 12 Nov 2026 06:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 14:38:40 +0000</lastBuildDate>
+  <item>
+   <title>Aging parent care planner | Family Care Hub</title>
+   <link>https://wolff2.github.io/shop/family-care-hub.html?pin=21</link>
+   <description>Aging parent care planner. Medication log, Doctor appointments, Care shifts, Shared care costs. Family Care Hub: a caregiver planner spreadsheet for Google Sheets and Excel. Medication log with refill dates, appointments, care schedule, tasks, daily log, shared care costs and a fair cost split between family members, plus printable care pages. Instant digital download.</description>
+   <guid isPermaLink="false">lumivexa-pin-21</guid>
+   <pubDate>Thu, 12 Nov 2026 14:38:40 +0000</pubDate>
+   <enclosure url="https://wolff2.github.io/pins/family-care-hub-21.jpg" length="138379" type="image/jpeg"/>
+   <media:content url="https://wolff2.github.io/pins/family-care-hub-21.jpg" medium="image" type="image/jpeg"/>
+  </item>
+  <item>
+   <title>How to split caregiving costs fairly between siblings</title>
+   <link>https://wolff2.github.io/guides/split-caregiving-costs-siblings.html</link>
+   <description>Practical ways to share the cost of caring for an aging parent between brothers and sisters: what counts as a shared cost, fair split methods and how to keep it transparent. Free guide from LumivexaStore.</description>
+   <guid isPermaLink="false">lumivexa-guide-split-caregiving-costs-siblings</guid>
+   <pubDate>Thu, 12 Nov 2026 14:38:40 +0000</pubDate>
+   <enclosure url="https://wolff2.github.io/pins/guide-split-caregiving-costs-siblings.jpg" length="144981" type="image/jpeg"/>
+   <media:content url="https://wolff2.github.io/pins/guide-split-caregiving-costs-siblings.jpg" medium="image" type="image/jpeg"/>
+  </item>
   <item>
    <title>One shared place to care for Mom or Dad | Family Care Hub</title>
    <link>https://wolff2.github.io/shop/family-care-hub.html?pin=20</link>
@@ -14,15 +32,6 @@
    <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
    <enclosure url="https://wolff2.github.io/pins/family-care-hub-20.jpg" length="159598" type="image/jpeg"/>
    <media:content url="https://wolff2.github.io/pins/family-care-hub-20.jpg" medium="image" type="image/jpeg"/>
-  </item>
-  <item>
-   <title>How to split caregiving costs fairly between siblings</title>
-   <link>https://wolff2.github.io/guides/split-caregiving-costs-siblings.html</link>
-   <description>Practical ways to share the cost of caring for an aging parent between brothers and sisters: what counts as a shared cost, fair split methods and how to keep it transparent. Free guide from LumivexaStore.</description>
-   <guid isPermaLink="false">lumivexa-guide-split-caregiving-costs-siblings</guid>
-   <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
-   <enclosure url="https://wolff2.github.io/pins/guide-split-caregiving-costs-siblings.jpg" length="144981" type="image/jpeg"/>
-   <media:content url="https://wolff2.github.io/pins/guide-split-caregiving-costs-siblings.jpg" medium="image" type="image/jpeg"/>
   </item>
  </channel>
 </rss>
