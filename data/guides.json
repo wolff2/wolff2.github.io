@@ -1,7 +1,7 @@
 [
  {
   "slug": "how-to-price-a-cake",
-  "product": "bake",
+  "product": "cake",
   "date": "2026-11-10",
   "title": "How to Price a Cake: A Simple Formula for Home Bakers",
   "desc": "A step-by-step cake pricing formula for home bakers: ingredients, packaging, your time, overhead and profit margin, with a worked example.",
@@ -64,7 +64,7 @@
  },
  {
   "slug": "recipe-cost-per-cupcake",
-  "product": "bake",
+  "product": "cake",
   "date": "2026-11-27",
   "title": "How to Calculate Recipe Cost Per Cupcake, Cookie or Slice",
   "desc": "Work out the true cost of a recipe per batch and per piece, including small ingredients, waste and packaging, so you can price cupcakes and cookies with confidence.",

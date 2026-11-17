@@ -10,6 +10,9 @@ PRODUCTS = {
     "bake": dict(name="Home Bakery Business System", page="/shop/home-bakery-system.html", c1="#6b2342", c2="#d9879d",
                  etsy="https://www.etsy.com/listing/4610553452/home-bakery-business-spreadsheet-cake",
                  pitch="Cake pricing calculator, recipe costing, order tracker with deposits, customer message scripts and a profit dashboard, ready in Google Sheets and Excel."),
+    "cake": dict(name="Cake Pricing Calculator", page="/shop/cake-pricing-calculator.html", c1="#6b2342", c2="#d9879d",
+                 etsy="https://www.etsy.com/listing/4619506317/cake-pricing-calculator-spreadsheet",
+                 pitch="Real cost, suggested price with true profit margin, deposit, profit per hour and a printable customer quote, ready in Google Sheets and Excel."),
     "care": dict(name="Family Care Hub", page="/shop/family-care-hub.html", c1="#2f5d50", c2="#c8743a",
                  etsy="https://www.etsy.com/listing/4611107142/family-caregiver-planner-medication-log",
                  pitch="Medication log with refill dates, appointments, care schedule, tasks and a fair cost split between family members, ready in Google Sheets and Excel."),
@@ -58,7 +61,7 @@ def build():
         ld = json.dumps({"@context": "https://schema.org", "@type": "Article", "headline": g["title"], "description": g["desc"],
                          "datePublished": g["date"], "image": f"{SITE}/pins/guide-{g['slug']}.jpg",
                          "author": {"@type": "Organization", "name": "LumivexaStore"}, "mainEntityOfPage": url})
-        others = [x for x in live if x["product"] == g["product"] and x["slug"] != g["slug"]]
+        others = [x for x in live if PRODUCTS[x["product"]]["c1"] == P["c1"] and x["slug"] != g["slug"]]
         more = "".join(f'<a href="/guides/{x["slug"]}.html"><b>{html.escape(x["title"])}</b></a>' for x in others)
         content = (f'<div class="k">GUIDE</div><h1>{html.escape(g["title"])}</h1>'
                    f'<p class="meta">Updated {datetime.date.fromisoformat(g["date"]).strftime("%B %-d, %Y")} · LumivexaStore</p>'
