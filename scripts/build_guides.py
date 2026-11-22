@@ -80,8 +80,9 @@ def build():
     urls = [f"{SITE}/", f"{SITE}/guides/"] + [f"{SITE}{P['page']}" for P in PRODUCTS.values()] + [f"{SITE}/guides/{g['slug']}.html" for g in live]
     sm = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     (ROOT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
+    (ROOT / "sitemap1.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     (ROOT / "sitemap.txt").write_text("\n".join(urls) + "\n")
-    (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /scripts/\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/sitemap.txt\n")
+    (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /scripts/\nSitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/sitemap.txt\nSitemap: {SITE}/sitemap1.xml\n")
     print(f"{len(live)} of {len(guides)} guides live")
 
 if __name__ == "__main__":

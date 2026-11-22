@@ -4,3 +4,4 @@ Disallow: /data/
 Disallow: /scripts/
 Sitemap: https://wolff2.github.io/sitemap.xml
 Sitemap: https://wolff2.github.io/sitemap.txt
+Sitemap: https://wolff2.github.io/sitemap1.xml
