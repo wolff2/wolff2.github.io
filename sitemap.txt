@@ -13,3 +13,4 @@ https://wolff2.github.io/guides/cake-deposit-how-much.html
 https://wolff2.github.io/guides/executor-accounts-to-close-checklist.html
 https://wolff2.github.io/guides/questions-to-ask-at-parents-doctor-appointment.html
 https://wolff2.github.io/guides/who-to-notify-when-someone-dies.html
+https://wolff2.github.io/guides/recipe-cost-per-cupcake.html
